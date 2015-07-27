@@ -1,0 +1,631 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &148536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 448536}
+  - 114: {fileID: 11448536}
+  m_Layer: 0
+  m_Name: icon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &448536
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 148536}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11448536
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 148536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: d511f463b83ccfb4a98bf477c7ba8928, type: 2}
+  mSprites:
+  - name: armor0-icon
+    x: 225
+    y: 32
+    width: 101
+    height: 107
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 17
+    paddingRight: 10
+    paddingTop: 19
+    paddingBottom: 2
+  - name: armor1-icon
+    x: 0
+    y: 311
+    width: 112
+    height: 107
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 9
+    paddingTop: 19
+    paddingBottom: 2
+  - name: armor2-icon
+    x: 333
+    y: 575
+    width: 91
+    height: 110
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 21
+    paddingRight: 16
+    paddingTop: 10
+    paddingBottom: 8
+  - name: armor3-icon
+    x: 333
+    y: 464
+    width: 91
+    height: 110
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 21
+    paddingRight: 16
+    paddingTop: 10
+    paddingBottom: 8
+  - name: coin-icon
+    x: 884
+    y: 900
+    width: 115
+    height: 124
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 4
+    paddingTop: 3
+    paddingBottom: 1
+  - name: icon-boot0
+    x: 225
+    y: 140
+    width: 99
+    height: 111
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 17
+    paddingRight: 12
+    paddingTop: 12
+    paddingBottom: 5
+  - name: icon-boot0-01
+    x: 636
+    y: 897
+    width: 121
+    height: 127
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 0
+  - name: icon-etcFang
+    x: 719
+    y: 802
+    width: 53
+    height: 93
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 38
+    paddingRight: 37
+    paddingTop: 23
+    paddingBottom: 12
+  - name: icon-etcFur
+    x: 0
+    y: 11
+    width: 95
+    height: 88
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 19
+    paddingRight: 14
+    paddingTop: 24
+    paddingBottom: 16
+  - name: icon-helm
+    x: 619
+    y: 820
+    width: 99
+    height: 75
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 16
+    paddingRight: 13
+    paddingTop: 27
+    paddingBottom: 26
+  - name: icon-helm-01
+    x: 117
+    y: 792
+    width: 128
+    height: 103
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 12
+    paddingBottom: 13
+  - name: icon-helm-02
+    x: 0
+    y: 208
+    width: 114
+    height: 102
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 3
+    paddingTop: 13
+    paddingBottom: 13
+  - name: icon-helm-03
+    x: 758
+    y: 906
+    width: 125
+    height: 118
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 0
+    paddingTop: 5
+    paddingBottom: 5
+  - name: icon-null
+    x: 117
+    y: 8
+    width: 105
+    height: 27
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 11
+    paddingTop: 85
+    paddingBottom: 16
+  - name: icon-potion1
+    x: 537
+    y: 797
+    width: 81
+    height: 98
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 23
+    paddingRight: 24
+    paddingTop: 17
+    paddingBottom: 13
+  - name: icon-potion2
+    x: 373
+    y: 797
+    width: 81
+    height: 98
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 23
+    paddingRight: 24
+    paddingTop: 17
+    paddingBottom: 13
+  - name: icon-potion3
+    x: 455
+    y: 797
+    width: 81
+    height: 98
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 23
+    paddingRight: 24
+    paddingTop: 17
+    paddingBottom: 13
+  - name: icon-ring
+    x: 843
+    y: 842
+    width: 80
+    height: 53
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 24
+    paddingRight: 24
+    paddingTop: 44
+    paddingBottom: 31
+  - name: icon-ring-01
+    x: 246
+    y: 794
+    width: 126
+    height: 101
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 20
+    paddingBottom: 7
+  - name: icon-shield
+    x: 0
+    y: 537
+    width: 110
+    height: 117
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 8
+    paddingTop: 7
+    paddingBottom: 4
+  - name: icon-shield1
+    x: 0
+    y: 419
+    width: 110
+    height: 117
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 8
+    paddingTop: 7
+    paddingBottom: 4
+  - name: icon-tailman
+    x: 333
+    y: 686
+    width: 97
+    height: 105
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 19
+    paddingRight: 12
+    paddingTop: 16
+    paddingBottom: 7
+  - name: new-iconpsd
+    x: 333
+    y: 353
+    width: 91
+    height: 110
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 21
+    paddingRight: 16
+    paddingTop: 10
+    paddingBottom: 8
+  - name: rod-icon
+    x: 0
+    y: 774
+    width: 116
+    height: 121
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 6
+    paddingTop: 4
+    paddingBottom: 3
+  - name: rod-icon02
+    x: 0
+    y: 655
+    width: 113
+    height: 118
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 4
+    paddingTop: 4
+    paddingBottom: 6
+  - name: rod-icon03
+    x: 383
+    y: 896
+    width: 124
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: skill-01
+    x: 117
+    y: 36
+    width: 107
+    height: 107
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 10
+    paddingTop: 11
+    paddingBottom: 10
+  - name: skill-02
+    x: 117
+    y: 252
+    width: 107
+    height: 107
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 10
+    paddingTop: 11
+    paddingBottom: 10
+  - name: skill-03
+    x: 225
+    y: 684
+    width: 107
+    height: 107
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 10
+    paddingTop: 11
+    paddingBottom: 10
+  - name: skill-04
+    x: 225
+    y: 576
+    width: 107
+    height: 107
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 10
+    paddingTop: 11
+    paddingBottom: 10
+  - name: skill-05
+    x: 225
+    y: 468
+    width: 107
+    height: 107
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 10
+    paddingTop: 11
+    paddingBottom: 10
+  - name: skill-06
+    x: 225
+    y: 360
+    width: 107
+    height: 107
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 10
+    paddingTop: 11
+    paddingBottom: 10
+  - name: skill-07
+    x: 225
+    y: 252
+    width: 107
+    height: 107
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 10
+    paddingTop: 11
+    paddingBottom: 10
+  - name: skill-08
+    x: 117
+    y: 144
+    width: 107
+    height: 107
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 10
+    paddingTop: 11
+    paddingBottom: 10
+  - name: skill-09
+    x: 0
+    y: 100
+    width: 107
+    height: 107
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 10
+    paddingTop: 11
+    paddingBottom: 10
+  - name: skill-10
+    x: 117
+    y: 684
+    width: 107
+    height: 107
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 10
+    paddingTop: 11
+    paddingBottom: 10
+  - name: skill-11
+    x: 117
+    y: 576
+    width: 107
+    height: 107
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 10
+    paddingTop: 11
+    paddingBottom: 10
+  - name: skill-12
+    x: 117
+    y: 468
+    width: 107
+    height: 107
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 10
+    paddingTop: 11
+    paddingBottom: 10
+  - name: skill-13
+    x: 117
+    y: 360
+    width: 107
+    height: 107
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 11
+    paddingRight: 10
+    paddingTop: 11
+    paddingBottom: 10
+  - name: Slot-layout
+    x: 773
+    y: 826
+    width: 69
+    height: 69
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sword0-icon
+    x: 129
+    y: 896
+    width: 126
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sword0-icon00
+    x: 0
+    y: 896
+    width: 128
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sword1-icon
+    x: 256
+    y: 898
+    width: 126
+    height: 126
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 0
+    paddingBottom: 2
+  - name: sword2-icon
+    x: 508
+    y: 902
+    width: 127
+    height: 122
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 6
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 148536}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
